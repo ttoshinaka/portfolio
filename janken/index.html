@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--検索インデックスをブロック -->
+    <meta name="robots" content="noindex">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="container">
+    <div id="loading"></div>
+    <div id="wrapper">
+        <div id="leftContent">
+            <div id="enemyContent">
+                <p><img id="enemyHand" src="img/hand_ge45858.png" alt=""></p>
+            </div>
+            <p class="cap">あいての手</p>
+            <div id="myContent">
+                <p><img id="myHand" src="img/hand_ge45858.png" alt=""></p>
+            </div>
+            <p class="cap">あなたの手</p>
+        </div>
+        <div id="rightContent">
+            <div id="info">
+                <p id="result">じゃんけんでしょうぶ!!</p>
+                <hr>
+                <p id="finaly">けっか</p>
+            </div>
+        </div>
+        <div id="rightButton">
+            <div id="lower">
+                <button id="buttonG" class="handBtn">グー</button>
+                <button id="buttonC" class="handBtn">チョキ</button>
+                <button id="buttonP" class="handBtn">パー</button>
+            </div>
+            <footer id="footer">
+                <button id="reset">リセット</button>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
